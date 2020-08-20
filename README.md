@@ -206,7 +206,7 @@ $ jenv versions
   oracle64-1.8.0.202-ea
 ```
 
-### 2.3 jenv update
+#### 2.3 jenv update
 
 Update jenv and all installed external plugins
 
@@ -235,7 +235,7 @@ Users seem to have issues using `jenv` with Fish. Please report any here.
 - Merged PR for the `jenv remove-all` command. [Original PR link](https://github.com/jenv/jenv/pull/146). Tested on Ubuntu/bash.
 - Added `jenv remove-broken` command that removes all the versions, which were deleted from the OS and their symlinks are now broken.
 
-### 4.1 Other patchsets for future merges:
+#### 4.1 Other patchsets for future merges:
 
 - [Maven versioning](https://github.com/jenv/jenv/pull/73)
 - [Bootstrap command](https://github.com/jenv/jenv/pull/82)
