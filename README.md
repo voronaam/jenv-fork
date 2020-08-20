@@ -40,7 +40,7 @@ Follow the steps below to get a working `jenv` installation with knowledge of yo
 
 #### 1.1 Installing `jenv`
 
-On OSX, the simpler way to install jEnv is using [Homebrew](https://brew.sh)
+On OSX, the simpler way to install jEnv is using [Homebrew](https://brew.sh) (This will install the vanilla upstream)
 
 ```bash
 brew install jenv
@@ -49,7 +49,7 @@ brew install jenv
 Alternatively, and on Linux, you can install it from source :
 
 ```bash
-git clone https://github.com/jenv/jenv.git ~/.jenv
+git clone https://github.com/voronaam/jenv-fork.git ~/.jenv
 # Shell: bash
 echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(jenv init -)"' >> ~/.bash_profile
