@@ -1,15 +1,17 @@
+# About this fork
+
+This is a for of [jenv project](https://github.com/jenv/jenv) to which I have applied many of the Pull Requests submitted to the upstream. It is intended as a personal fork for convenience, but feel free to use it, if you like it. You may also submit additional Pull Requests for the merge here.
+
 # Master your Java Environment with jenv
 
 Website : http://www.jenv.be
 
 Maintainers : 
-- [Gildas Cuisinier](https://github.com/gcuisinier/)
+- [Gildas Cuisinier](https://github.com/gcuisinier/) (the upstream maintainer)
+- [Lex Vorona](https://github.com/voronaam/) (this fork maintainer)
 
 Future maintainer in discussion:
-- [Benjamin Berman](https://github.com/doctorpangloss) 
-
-As he makes an incredible work by taking time to merge the Pull Request on his fork, I (@gcuisinier) am in discussion with him to take part of jEnv directly if he wants.
-Whatever his decision, I thank him for his work, and to have convincing me to think about the future of jEnv and accepting a new maintainer for the good of the project.
+- [Benjamin Berman](https://github.com/doctorpangloss) (the other fork maintainer, to which I did not find a link sadly)
 
 ## What's jEnv ?
 
@@ -214,4 +216,7 @@ Users seem to have issues using `jenv` with Fish. Please report any here.
 
 
 
+### 4 This fork differences
+
+- Fix to the deprecated `jenv add <alias> <path>` functionality
 
