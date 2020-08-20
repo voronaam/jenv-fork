@@ -18,10 +18,12 @@ do
   then
     rm -f $JENV_ROOT/versions/$JENV_VERSION
     rm -f ${JENV_ROOT}/$JENV_VERSION.time
-    $(jenv-rehash)
     echo "JDK $JENV_VERSION removed"
 
   else
     echo "$JENV_VERSION is not a managed version of Java "
   fi
 done
+
+$(jenv-rehash)
+

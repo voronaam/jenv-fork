@@ -234,6 +234,7 @@ Users seem to have issues using `jenv` with Fish. Please report any here.
 - Merged PR for system's javahome. [Original PR link](https://github.com/jenv/jenv/pull/134). Tested on Ubuntu/bash.
 - Merged PR for the `jenv remove-all` command. [Original PR link](https://github.com/jenv/jenv/pull/146). Merged with changes. Tested on Ubuntu/bash.
 - Added `jenv remove-broken` command that removes all the versions, which were deleted from the OS and their symlinks are now broken.
+- Merged PR for the `jenv remove` multiple arguments command. [Original PR link](https://github.com/jenv/jenv/pull/269/). Merged with changes. Tested on Ubuntu/bash.
 
 #### 4.1 Other patchsets for future merges:
 
