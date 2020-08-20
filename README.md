@@ -1,6 +1,6 @@
 # About this fork
 
-This is a for of [jenv project](https://github.com/jenv/jenv) to which I have applied many of the Pull Requests submitted to the upstream. It is intended as a personal fork for convenience, but feel free to use it, if you like it. You may also submit additional Pull Requests for the merge here.
+This is a fork of [jenv project](https://github.com/jenv/jenv) to which I have applied many of the Pull Requests submitted to the upstream. It is intended as a personal fork for convenience, but feel free to use it, if you like it. You may also submit additional Pull Requests for the merge here.
 
 # Master your Java Environment with jenv
 
