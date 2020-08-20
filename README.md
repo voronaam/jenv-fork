@@ -235,4 +235,4 @@ Users seem to have issues using `jenv` with Fish. Please report any here.
 ### 4.1 Other patchsets for future merges:
 
 - [Maven versioning](https://github.com/jenv/jenv/pull/73)
-
+- [Bootstrap command](https://github.com/jenv/jenv/pull/82)
