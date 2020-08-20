@@ -230,4 +230,5 @@ Users seem to have issues using `jenv` with Fish. Please report any here.
 
 - Fix to the deprecated `jenv add <alias> <path>` functionality
 - Merged PR for variable safety in fish. [Original PR link](https://github.com/jenv/jenv/pull/52)
+- Merged PR for the update command. [Original PR link](https://github.com/jenv/jenv/pull/65)
 
