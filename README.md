@@ -232,7 +232,7 @@ Users seem to have issues using `jenv` with Fish. Please report any here.
 - Merged PR for variable safety in fish. [Original PR link](https://github.com/jenv/jenv/pull/52)
 - Merged PR for the `jenv update` command. [Original PR link](https://github.com/jenv/jenv/pull/65). Tested on Ubuntu/bash.
 - Merged PR for system's javahome. [Original PR link](https://github.com/jenv/jenv/pull/134). Tested on Ubuntu/bash.
-- Merged PR for the `jenv remove-all` command. [Original PR link](https://github.com/jenv/jenv/pull/146). Tested on Ubuntu/bash.
+- Merged PR for the `jenv remove-all` command. [Original PR link](https://github.com/jenv/jenv/pull/146). Merged with changes. Tested on Ubuntu/bash.
 - Added `jenv remove-broken` command that removes all the versions, which were deleted from the OS and their symlinks are now broken.
 
 #### 4.1 Other patchsets for future merges:
