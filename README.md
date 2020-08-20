@@ -206,7 +206,7 @@ $ jenv versions
   oracle64-1.8.0.202-ea
 ```
 
-### jenv update
+### 2.3 jenv update
 
 Update jenv and all installed external plugins
 
@@ -216,7 +216,7 @@ Update jenv and all installed external plugins
     * branch            master     -> FETCH_HEAD
     Already up-to-date.
 
-#### 2.2 Other Workflows
+#### 2.4 Other Workflows
 
 Please contribute your own using a pull request!
 
@@ -232,3 +232,7 @@ Users seem to have issues using `jenv` with Fish. Please report any here.
 - Merged PR for variable safety in fish. [Original PR link](https://github.com/jenv/jenv/pull/52)
 - Merged PR for the update command. [Original PR link](https://github.com/jenv/jenv/pull/65)
 
+### 4.1 Other patchsets for future merges:
+
+- [Maven versioning](https://github.com/jenv/jenv/pull/73)
+- [Bootstrap command](https://github.com/jenv/jenv/pull/82)
