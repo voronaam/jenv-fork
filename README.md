@@ -206,6 +206,16 @@ $ jenv versions
   oracle64-1.8.0.202-ea
 ```
 
+### jenv update
+
+Update jenv and all installed external plugins
+
+    $ jenv update
+    [OK]	Updating /home/bshell/.jenv...
+    From https://github.com/gcuisinier/jenv
+    * branch            master     -> FETCH_HEAD
+    Already up-to-date.
+
 #### 2.2 Other Workflows
 
 Please contribute your own using a pull request!
