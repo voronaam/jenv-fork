@@ -219,4 +219,5 @@ Users seem to have issues using `jenv` with Fish. Please report any here.
 ### 4 This fork differences
 
 - Fix to the deprecated `jenv add <alias> <path>` functionality
+- Merged PR for variable safety in fish. [Original PR link](https://github.com/jenv/jenv/pull/52)
 
