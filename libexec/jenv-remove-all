@@ -5,9 +5,9 @@ set -e
 [ -n "$JENV_DEBUG" ] && set -x
 
 for path in "${JENV_ROOT}/versions/"*; do
-  if [ -d "$path" ]; then
+  if [ -L "$path" ]; then
     JENV_VERSION=${path##*/}
-    rm -f $path
+    rm -f $JENV_ROOT/versions/$JENV_VERSION
     rm -f ${JENV_ROOT}/$JENV_VERSION.time
     echo "JDK $JENV_VERSION removed"
   fi

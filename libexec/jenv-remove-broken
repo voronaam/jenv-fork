@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Summary: Remove all broken (missing) JDK installations
+# Usage: jenv remove-broken
+set -e
+[ -n "$JENV_DEBUG" ] && set -x
+
+for path in "${JENV_ROOT}/versions/"*; do
+    if [ -L "$path" ] && ! [ -e "$path" ]; then
+        JENV_VERSION=${path##*/}
+        rm -f $JENV_ROOT/versions/$JENV_VERSION
+        rm -f ${JENV_ROOT}/$JENV_VERSION.time
+        echo "JDK $JENV_VERSION removed"
+  fi
+done
+
+$(jenv-rehash)
+
