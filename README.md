@@ -228,7 +228,7 @@ Users seem to have issues using `jenv` with Fish. Please report any here.
 
 ### 4 This fork differences
 
-- Fix to the deprecated `jenv add <alias> <path>` functionality. Tested on Ubuntu/bash, MacOS/bash.
+- ~~Fix to the deprecated `jenv add <alias> <path>` functionality. Tested on Ubuntu/bash, MacOS/bash.~~ (applied upstream)
 - Merged PR for variable safety in fish. [Original PR link](https://github.com/jenv/jenv/pull/52)
 - Merged PR for the `jenv update` command. [Original PR link](https://github.com/jenv/jenv/pull/65). Tested on Ubuntu/bash.
 - Merged PR for system's javahome. [Original PR link](https://github.com/jenv/jenv/pull/134). Tested on Ubuntu/bash.
