@@ -2,7 +2,7 @@
 #
 # Summary: Run an executable with the selected Java version
 #
-# Usage: jenv exec <command> [arg1 arg2...]
+# Usage: jenv exec [--version <version>] <command> [arg1 arg2...]
 #
 # Runs an executable by first preparing PATH so that the selected Java
 # version's `bin' directory is at the front.
@@ -12,6 +12,12 @@
 #
 # is equivalent to:
 #   PATH="$JENV_ROOT/versions/oracle-1.6.3/bin:$PATH" java -jar myjar.jar 
+#
+# You can also specify a different version of java with the --version parameter.
+#   jenv exec --version 14 java -jar myjar.jar
+#
+# This is equivalent to:
+#   JENV_VERSION=14 java -jar myjar.jar
 
 set -e
 [ -n "$JENV_DEBUG" ] && set -x      
@@ -27,7 +33,13 @@ if [ "$1" = "--complete" ]; then
   exec jenv shims --short
 fi
 
-export JENV_VERSION="$(jenv-version-name)"
+# Find which version to execute
+if [ "$1" = "--version" ]; then
+  export JENV_VERSION="$2"
+  shift 2
+else
+  export JENV_VERSION="$(jenv-version-name)"
+fi
 JENV_COMMAND="$1" 
 
 export JENV_OPTIONS="$(jenv-options)"    
